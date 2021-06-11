@@ -1,0 +1,101 @@
+{
+    "mobiles":[
+        {
+          "productName": "OnePlus 7 Pro",
+          "productImage": "https://images-na.ssl-images-amazon.com/images/I/51s0Mb5li8L._SL1000_.jpg",
+          "productDesc": "Go beyond speed with 'OnePlus' newest flagship with an unique full display, an industry leading triple camera and premium glass design. 2.84GHz Snapdragon 855 octa core processor."
+        },
+        {
+          "productName": "OnePlus 8 Pro",
+          "productImage": "https://images-na.ssl-images-amazon.com/images/I/61YSMhOd5EL._SL1500_.jpg",
+          "productDesc": "The all new OnePlus 8 Pro Powered by Qualcomm Snapdragon 865. Supports 5G Technology and comes equipped with 120hz Fliud display, a Rear Quad camera Setup with a capability to shoot 4K video."
+        },
+        {
+          "productName": "OnePlus 8T 5G",
+          "productImage": "https://images-na.ssl-images-amazon.com/images/I/71UqqpGVheL._SL1500_.jpg",
+          "productDesc": "The all new OnePlus 8T 5G - ultra stops at nothing - loaded with snapdragon 865 processor, 5G connectivity, 120hz fluid amoled display, 65W warp charging, rear quad camera setup."
+        },
+        {
+          "productName": "OnePlus 9R 5G",
+          "productImage": "https://images-na.ssl-images-amazon.com/images/I/61PDbUd1VaL._SL1500_.jpg",
+          "productDesc": "The All New OnePlus 9 R, Level Up -  OnePlus 9 R comes with Qualcomm Snapdragon 870 5G with upgraded Qualcomm Kryo 585 CPU that performs intense mobile computing at up to 3.2 GHz and also comes with an ultra-fast Qualcomm Adreno 650 GPU."
+        },
+        {
+          "productName": "OnePlus 9 5G",
+          "productImage": "https://images-na.ssl-images-amazon.com/images/I/61fy%2Bu9uqPL._SL1500_.jpg",
+          "productDesc": "The all New OnePlus 9 Flagship is here. The New OnePlus 9 comes with Snapdragon 888 Processor, a Rear Triple Camera setup Co-Developed by Hassleblad, 6.55 Inches 120 HZ Fliud AMOLED display, 65W Warp Charging. 5G enabled, NFC enabled."
+        },
+        {
+          "productName": "OnePlus 9 Pro 5G",
+          "productImage": "https://m.media-amazon.com/images/I/612ytK4luvL._SL1500_.jpg",
+          "productDesc": "The All New OnePlus 9 Pro - Your Best Shot - Loaded with Snapdragon 888 Processor, Quad Camera Co-Developed by Hassleblad, 120 HZ Fliud AMOLED display, 65W Warp Charging, 50W Wireless charging.OnePlus Oxygen OS based on Andriod 11."
+        }
+    ],
+    
+    "laptops":[
+        {
+          "productName": "ASUS ROG",
+          "productImage": "https://images-na.ssl-images-amazon.com/images/I/61BhDj3uFJL._AC_SL1500_.jpg",
+          "productDesc": "ASUS ROG Zephyrus M15 (2020), 15.6inch FHD 240Hz/3ms, Intel Core i7-10750H 10th Gen, GTX 1660Ti 6GB Graphics, Gaming Laptop (16GB/1TB SSD/Office 2019/Windows 10/Gray/1.9 Kg), GU502LU-AZ108TS NVIDIA GeForce GTX 1660Ti"
+        },
+        {
+          "productName": "ASUS ROG",
+          "productImage": "https://images-na.ssl-images-amazon.com/images/I/8189czxRlUL._AC_SL1500_.jpg",
+          "productDesc": "ASUS ROG Zephyrus Duo 15, 15.6inch FHD 300Hz/3ms, Intel Core i7-10875H 10th Gen, RTX 2070 Super Max-Q 8GB Graphics, Gaming Laptop (32GB/1TB SSD/Office 2019/Windows 10/Gray/2.48 Kg), GX550LWS-HF130TS"
+        },
+        {
+          "productName": "ASUS ROG",
+          "productImage": "https://images-na.ssl-images-amazon.com/images/I/81Ha%2BSI%2BQML._AC_SL1500_.jpg",
+          "productDesc": "ASUS ROG Strix G17 17.3inch (43.94 cms) FHD 120Hz Intel Core i7-10750H 10th Gen, GTX 1660Ti 6GB Graphics (16GB RAM/512GB NVMe SSD/Windows 10/Original Black/2.83 Kg), G712LU-H7015T + Xbox Game Pass for PC"
+        },
+        {
+          "productName": "OMEN by HP",
+          "productImage": "https://images-na.ssl-images-amazon.com/images/I/71dG2zTOI6L._AC_SL1500_.jpg",
+          "productDesc": "OMEN by HP Gaming Laptop, Ryzen 5-4600H, 8 GB DDR6 RAM, 4GB NVIDIA 1650ti Graphics, 512 GB SSD, 15.6inch(39.62cms) FHD Screen, Windows 10 with Advanced Thermal Management, 15-en0001AX."
+        },
+        {
+          "productName": "Lenovo Legion",
+          "productImage": "https://images-na.ssl-images-amazon.com/images/I/61pW8BWBq1L._AC_SL1000_.jpg",
+          "productDesc": "Lenovo Legion 5Pi 10th Gen Intel Core i7 15.6inch FHD Gaming Laptop (16GB/1TB SSD/Windows 10/MS Office 2019/144 Hz/NVIDIA RTX 2060 6GB GDDR6/with M300 RGB Gaming Mouse/Iron Grey/2.3Kg)."
+        },
+        {
+          "productName": "HP Pavilion",
+          "productImage": "https://images-na.ssl-images-amazon.com/images/I/71FHcGAPevL._AC_SL1498_.jpg",
+          "productDesc": "HP Pavilion Gaming 10th Gen Intel Core i5 Processor 16.1inch (40.9 cms) FHD Gaming Laptop (8GB/1TB HDD + 256GB SSD/Windows 10/MS Office/NVIDIA GTX 1650 4GB/Shadow Black), 16-a0022TX."
+        }
+    ],
+
+    "televisions":[
+        {
+          "productName": "Sony",
+          "productImage": "https://images-na.ssl-images-amazon.com/images/I/81Nw2ifyBzL._AC_SL1500_.jpg",
+          "productDesc": "Sony Bravia 138.8 cm (55 inches) 4K Ultra HD Smart LED TV KD-55X7002G (Black) (2019 Model).  This display offers a range from 4K HDR, Dolby VIsion, HDR 10+, HLG, Wide Colour Gamut & vivid picture engine that delivers a captivating viewing experience."
+        },
+        {
+          "productName": "OnePlus",
+          "productImage": "https://images-na.ssl-images-amazon.com/images/I/81qtALn%2BGpL._AC_SL1500_.jpg",
+          "productDesc": "OnePlus 80 cm (32 inches) Y Series HD Ready LED Smart Android TV 32Y1 (Black) (2020 Model). Treat your eyes to vivid imagery with a high colour range of 93% DCI-P3 featuring a 20% wider colour gamut—authentic cinematic colour with the OnePlus TV 32Y1."
+        },
+        {
+          "productName": "LG",
+          "productImage": "https://images-na.ssl-images-amazon.com/images/I/71qN7IK4H1L._AC_SL1500_.jpg",
+          "productDesc": "LG 108 cm (43 inches) 4K Ultra HD Smart LED TV 43UM7290PTF (Ceramic Black) (2020 Model). New LG 43UM7290 4K smart TV loaded with amazing features and stunning picture quality through 4K Active HDR. It is lightweight and has a metallic design."
+        },
+        {
+          "productName": "Redmi",
+          "productImage": "https://images-na.ssl-images-amazon.com/images/I/81sscKjSPiL._AC_SL1500_.jpg",
+          "productDesc": "Redmi 126 cm (50 inches) 4K Ultra HD Android Smart LED TV X50|L50M6-RA (Black) (2021 Model). Get the latest PatchWall experience that enables Universal Search across 25+ OTT apps, Smart suggest, LIVE TV, One-Click Play to Live Sports and Kids Mode."
+        },
+        {
+          "productName": "Mi",
+          "productImage": "https://images-na.ssl-images-amazon.com/images/I/71g6MiOiAVL._AC_SL1500_.jpg",
+          "productDesc": "Mi 125.7 cm (50 Inches) 4K Ultra HD Android Smart LED TV 4X|L50M5-5AIN (Black) (2021 Model). The Mi TV 4X 50 features a 4K display coupled with Vivid Picture Engine provides an incredible level of detail and color fidelity for truly entertaining viewing."
+        },
+        {
+          "productName": "Vu",
+          "productImage": "https://images-na.ssl-images-amazon.com/images/I/61g2N0Z0SSL._AC_SL1500_.jpg",
+          "productDesc": "Vu 139cm (55inches) Cinema TV Action Series 4K Ultra HD LED Smart Android TV 55LX (Black) (2021 Model) I With 100 watt Front Soundbar. The 20W speakers with Dolby Audioand DTS-HD decoders deliver room-filling sound to complete the spectacle."
+        }
+    ]
+    
+}
