@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { DataService } from '../data.service';
 
 @Component({
   selector: 'app-televisions',
@@ -6,10 +7,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./televisions.component.css']
 })
 export class TelevisionsComponent implements OnInit {
+  televisions: any
 
-  constructor() { }
+  constructor(private dsObj: DataService) { }
 
   ngOnInit(): void {
+    this.dsObj.getTelevisions().subscribe(
+      getData => { this.televisions = getData },
+      err => { console.log("Error in getting televisions data", err) }
+    )
   }
 
 }

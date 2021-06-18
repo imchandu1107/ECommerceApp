@@ -1,1 +1,25 @@
-<p>login works!</p>
+<div class="container mt-5 pt-3">
+    <div class="row justify-content-center">
+        <div class="col-12 col-sm-10 col-md-8 col-lg-6 col-xl-4 bg-light pt-5 pb-4">
+            <h1 class="text-center display-5 bg-warning">LOGIN</h1>
+            <form autocomplete="off">
+                <div class="form-floating mt-3">
+                    <input type="text" name="username" id="un" class="form-control" placeholder="un" style="box-shadow: none;">
+                    <label for="un">E-Mail</label>
+                </div>
+
+                <div class="form-floating mt-3" >
+                    <input type="password" name="password" id="pw" class="form-control" placeholder="pw" style="box-shadow: none;">
+                    <label for="pw">Password</label>
+                </div>
+
+                <button type="submit" class="btn btn-danger mt-3 d-block mx-auto">Login</button>
+            </form>
+
+            <p class="lead mt-3 text-center">Don't have an account?
+                <a href="http://localhost:4200/register">Register</a>
+                Now.
+            </p>
+        </div>
+    </div>
+</div>

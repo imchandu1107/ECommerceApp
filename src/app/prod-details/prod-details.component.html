@@ -1,1 +1,12 @@
-<p>prod-details works!</p>
+<div class="card mt-5 shadow">
+
+    <img src="{{prodObj.productImage}}" alt="" class="d-block mx-auto mt-2" width="50%">
+    <div class="card-body">
+        <h4 class="card-title bg-danger text-white" style="font-size:30px; font-family: 'Roboto Slab', serif;">{{prodObj.productName}}</h4>
+        <p class="card-text lead">{{prodObj.productDesc}}</p>
+        <button class="btn btn-warning float-end" style="box-shadow: none;">
+            <i class="fas fa-shopping-cart text-danger"></i>
+            Add To Cart
+        </button>
+    </div>
+</div>

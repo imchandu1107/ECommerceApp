@@ -1,1 +1,5 @@
-<p>laptops works!</p>
+<div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 lead">
+    <div class="col" *ngFor="let lapObj of laptops">
+        <app-prod-details [prodObj]=lapObj></app-prod-details>
+    </div>
+</div>

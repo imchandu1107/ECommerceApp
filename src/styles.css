@@ -1,7 +1,8 @@
-body{
-    background-image:  url(https://c.wallhere.com/images/06/0e/f6bf9802ad373ccf57bb6d332e47-1437713.jpg!d);
+body {
+  background-image: url(https://c.wallhere.com/images/06/0e/f6bf9802ad373ccf57bb6d332e47-1437713.jpg!d);
+  background-attachment: fixed;
 }
 
-.HtAdjust{
-    min-height: 100vh;
+.HtAdjust {
+  min-height: 100vh;
 }

@@ -1,0 +1,15 @@
+li{
+    background-color: 	#9a0000;
+    border-radius: 5px;
+}
+li a{
+    color: white;
+}
+.active{
+    font-weight: bold;
+}
+.active.nav-link{
+    background-color:white;
+    color:#9a0000;
+    box-shadow: 3px 3px 3px #9a0000;
+}
