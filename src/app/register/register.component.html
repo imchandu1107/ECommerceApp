@@ -2,39 +2,35 @@
     <div class="row justify-content-center">
         <div class="col-12 col-sm-10 col-md-8 col-lg-6 col-xl-4 bg-light pt-5 pb-4">
             <h1 class="text-center display-5 bg-warning">REGISTER</h1>
-            <form autocomplete="off">
+            <form #ref="ngForm" (ngSubmit)="onSignup(ref.value)" autocomplete="off">
                 <div class="form-floating mt-3">
-                    <input type="text" name="username" id="un" class="form-control" placeholder="un" style="box-shadow: none;">
-                    <label for="un">Full Name</label>
+                    <input type="text" name="username" id="un" class="form-control" placeholder="un" style="box-shadow: none;" ngModel>
+                    <label for="un">Username</label>
                 </div>
 
                 <div class="form-floating mt-3">
-                    <input type="email" name="email" id="em" class="form-control" placeholder="un" style="box-shadow: none;">
+                    <input type="text" name="name" id="name" class="form-control" placeholder="name" style="box-shadow: none;" ngModel>
+                    <label for="name">Full Name</label>
+                </div>
+
+                <div class="form-floating mt-3">
+                    <input type="email" name="email" id="em" class="form-control" placeholder="em" style="box-shadow: none;" ngModel>
                     <label for="em">E-Mail</label>
                 </div>
 
-                <div class="form-floating mt-3">
-                    <input type="text" name="num" id="mn" class="form-control" placeholder="mn" style="box-shadow: none;">
-                    <label for="mn">Mobile Number</label>
+                <div class="form-floating mt-3" >
+                    <input type="date" name="dob" id="dob" class="form-control" placeholder="dob" style="box-shadow: none;" ngModel>
+                    <label for="dob">Date Of Birth</label>
                 </div>
 
                 <div class="form-floating mt-3" >
-                    <input type="password" name="password" id="pw" class="form-control" placeholder="pw" style="box-shadow: none;">
+                    <input type="password" name="password" id="pw" class="form-control" placeholder="pw" style="box-shadow: none;" ngModel>
                     <label for="pw">Password</label>
-                </div>
-
-                <div class="form-floating mt-3" >
-                    <input type="password" name="confpassword" id="cpw" class="form-control" placeholder="cpw" style="box-shadow: none;">
-                    <label for="cpw"> Confirm Password</label>
                 </div>
 
                 <button type="submit" class="btn btn-danger mt-3 d-block mx-auto">Register</button>
             </form>
 
-            <p class="lead mt-3 text-center">Already have an account?
-                <a href="http://localhost:4200/login">Login</a>
-                Here.
-            </p>
         </div>
     </div>
 </div>

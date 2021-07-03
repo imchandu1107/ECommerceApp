@@ -12,4 +12,8 @@ export class RegisterComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  onSignup( userObj:any ) {
+    console.log( userObj )
+  }
+
 }
