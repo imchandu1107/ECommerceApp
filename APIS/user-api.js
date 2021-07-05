@@ -6,37 +6,18 @@ const bcryptjs = require( "bcryptjs" )
 const jwt = require( "jsonwebtoken" )
 require( "dotenv" ).config()
 
+//verifyToken
+const verifyToken = require( "./middlewares/verifyToken" )
+
 //body parsing middleware
 userApi.use( exp.json() )
-
-//importing mongo client
-const mc = require( "mongodb" ).MongoClient
-
-//connection string
-const databaseUrl = process.env.DATABASE_URL
-
-let userCollectionObj
-
-//connecting to database
-mc.connect( databaseUrl, { useNewUrlParser: true, useUnifiedTopology: true }, ( err, client ) => {
-    if ( err ) {
-        console.log( "Error in connecting to database", err )
-    }
-    else {
-        //get database onject
-        let databaseObj = client.db( "demodb" )
-
-        //creating user collection object
-        userCollectionObj = databaseObj.collection( "usercollection" )
-        console.log( "Connected to Database" )
-    }
-} )
 
 
 
 //get users
 //<url>http://localhost:3000/user/getusers
 userApi.get( "/getusers", expressErrorHandler( async ( req, res ) => {
+    let userCollectionObj = req.app.get( "userCollectionObj" )
 
     let usersList = await userCollectionObj.find().toArray()
     if ( usersList.length === 0 ) {
@@ -54,6 +35,7 @@ userApi.get( "/getusers", expressErrorHandler( async ( req, res ) => {
 //get user by username
 //<url>http://localhost:3000/user/getuser/<username>
 userApi.get( "/getuser/:username", expressErrorHandler( async ( req, res ) => {
+    let userCollectionObj = req.app.get( "userCollectionObj" )
 
     //get username from url
     let un = req.params.username
@@ -74,6 +56,7 @@ userApi.get( "/getuser/:username", expressErrorHandler( async ( req, res ) => {
 //create new user
 //<url>http://localhost:3000/user/createuser
 userApi.post( "/createuser", expressErrorHandler( async ( req, res ) => {
+    let userCollectionObj = req.app.get( "userCollectionObj" )
 
     //get user obj
     let newUser = req.body
@@ -101,6 +84,7 @@ userApi.post( "/createuser", expressErrorHandler( async ( req, res ) => {
 //updating existing user
 //<url>http://localhost:3000/user/updateuser
 userApi.put( "/updateuser", expressErrorHandler( async ( req, res ) => {
+    let userCollectionObj = req.app.get( "userCollectionObj" )
 
     //get modified user object
     let modifiedUser = req.body
@@ -126,6 +110,7 @@ userApi.put( "/updateuser", expressErrorHandler( async ( req, res ) => {
 //deleting user
 //<url>http://localhost:3000/user/deleteuser/<username>
 userApi.delete( "/deleteuser/:username", expressErrorHandler( async ( req, res ) => {
+    let userCollectionObj = req.app.get( "userCollectionObj" )
 
     //get username from url
     let un = req.params.username
@@ -146,6 +131,7 @@ userApi.delete( "/deleteuser/:username", expressErrorHandler( async ( req, res )
 
 //user login and authentication
 userApi.post( '/login', expressErrorHandler( async ( req, res ) => {
+    let userCollectionObj = req.app.get( "userCollectionObj" )
     
     //getting user credentials
     let credentials = req.body
